@@ -5,7 +5,7 @@ const port = 3000;
 app.get("/", (req, res) => {
   res.send({
     code: 200,
-    detail: "Successfull Here abc",
+    detail: "Hello world",
   });
 });
 
